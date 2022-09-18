@@ -5,8 +5,76 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Journal</title>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<script src="main.js"></script>
+		<div class="container">
+			<div class="header">
+				<div class="nav">
+					<div class="navbar">
+						<ul class="ulNav">
+							<li><a class="menuItem" href="#">Home</a></li>
+							<li><a class="menuItem" href="#">New Journal</a></li>
+							<li><a class="menuItem" href="#">Sign in </a></li>
+							<li><a class="menuItem" href="#">Log in</a></li>
+							<li><a class="menuItem" href="#">About</a></li>
+						</ul>
+						<button class="hamburgerBtn">
+							<span class="material-icons menu-icon"> menu </span>
+							<span class="material-icons close-icon"> close </span>
+						</button>
+					</div>
+					<div class="sign">
+						<button class="signBtn">Sign in </button>
+						<button class="logBtn">Log in </button>
+					</div>
+				</div>
+				<div class="content">
+					<div class="textDiv"
+						>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+						Dignissimos fugiat sapiente, tenetur velit quo ullam, delectus
+						<br />
+						minima eos placeat commodi nulla? Qui eaque minima omnis error cum
+						<br />
+						inventore facere ab!
+					</div>
+					<div class="formDiv">
+						<button class="formBtn">Start Your Free Journal Now!</button>
+
+						<div class="formContainer">
+							<form class="form" action="/">
+								<h1>Welcome to your Journal!</h1>
+								<div class="input-control">
+									<label for="firstName">First Name</label>
+									<input type="text" class="firstName" name="firstName" />
+								</div>
+
+								<div class="input-control">
+									<label for="lastName">Last Name</label>
+									<input type="text" class="lastName" name="lastName" />
+								</div>
+
+								<div class="input-control"
+									><label for="phoneNumber">Phone Number</label>
+									<input type="number" class="phoneNumber" name="phoneNumber" />
+								</div>
+
+								<div class="input-control">
+									<label for="email">Email</label>
+									<input type="email" class="eMail" name="email" />
+								</div>
+								<div class="input-control">
+									<button class="formSubmitBtn" type="submit">Sign up!</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./main.js" defer></script>
 	</body>
 </html>
